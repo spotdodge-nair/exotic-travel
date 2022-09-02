@@ -1,0 +1,176 @@
+#container {
+    width: 1200px;
+    height: auto;
+    background-color: white;
+    margin-left: auto;
+    /* centers container */
+    margin-right: auto;
+    /* centers container */
+}
+body {
+    margin: 0;
+    /* removes white space at the top of the container div */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#banner {
+    background-color: transparent;
+    width: 1200px;
+    height: 350px;
+    background-size: cover;
+
+}
+#navigation {
+    background-color: yellow;
+    width: 1200px;
+    height: 50px;
+
+}
+
+#transparentBAR {
+    background-color: orange;
+    width: 1200px;
+    height: 50px;
+    position: relative;
+    top: 300px;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+#transparentBARText {
+    font-size: 40px;
+    position: relative;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#footer {
+    font-size: 18px;
+    clear: both;
+    background-color: rgb(34,34,34);
+    width: 1200px;
+    height: 50px;
+    text-align: center;
+    color: gray;
+    line-height: 55px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#leftBAR {
+    width: 420px;
+    height: 1000px;
+    float: left;
+    background-color: lightgray;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: gray;
+    padding-left: 20px;
+    padding-right: 10px;
+    
+}
+#contentArea {
+    width: 720px;
+    height: 800px;
+    float: right;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-right: 2px;
+}
+
+#navigation {
+    background-color: yellow;
+    width: 1200px;
+    height: 50px;
+
+}
+#navigation a {
+    background-color: rgb(155, 210, 108);
+    color: white;
+    font-weight: bold;
+    width: 240px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    line-height: 45px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+#navigation a:link {
+    /* appearance of the links not yet visited */
+    background-color: rgb(155, 210, 108);
+    color: white;
+    font-weight: bold;
+    width: 240px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    line-height: 45px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+#navigation a:hover {
+    /* appearance of the links not yet visited */
+    background-color: green;
+    color: white;
+    width: 240px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    line-height: 45px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+#topTEXT {
+    height: 200px;
+    background-color: transparent; 
+}
+#title {
+    float: left;
+    font-family: Helvetica, sans-serif;
+    color: gray;
+    width: 600px;
+    height: 200px;
+    font-size: 65px;
+    line-height: 260px;
+    padding-left: 5px;
+}
+#contentAreaTOP {
+    background-color: transparent;
+    width: 720px;
+    height: 500px;
+    margin-bottom: 37px;
+    color: gray;
+}
+#contentAreaBOTTOM {
+    background-color: transparent;
+    width: 720px;
+    height: 405px;
+    margin-top: 10px;
+    color: gray;
+    
+}
+#footerSUMMARY {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#socials {
+    float: right;
+    width: 595px;
+    height: 200px;
+    text-align: center;
+}
+#socials li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-right: 20px;
+    line-height: 280px;
+}
+#socials ul {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    float: right;
+}
